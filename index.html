@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock XD</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body class="container">
+    
+    <div class="logo-container">
+        <img src="./clc.png" alt="clock-logo">
+    </div>
+    <div class="schedule-container">
+        <div class="wake-container">
+
+            <div class="wake-img">
+                <img src="./sun.png" alt="">
+
+            </div>
+            <div class="wake-text">Set wake up time</div>
+            <div class="option-box">
+                <select name="" id="opt-value">
+                    <option value="Default Value">Default Value</option>
+                    <option value="7">7AM-8AM</option>
+                    <option value="8">8AM-9AM</option>
+                    <option value="9">9AM-10AM</option>
+                    <option value="10">10AM-11AM</option>
+                    <option value="11">11AM-12PM</option>
+                </select>
+            </div>
+        </div>
+        <div class="vert-line"></div>
+        <div class="lunch-container">
+
+            <div class="lunch-img">
+                <img src="./lunch.png" alt="">
+
+            </div>
+            <div class="lunch-text">Set lunch time</div>
+            <div class="option-box1">
+                <select name="" id="opt-value1">
+                    <option value="Default Value">Default Value</option>
+                    <option value="0">12PM-1PM</option>
+                    <option value="1">1PM-2PM</option>
+                    <option value="2">2PM-3PM</option>
+                    <option value="3">3PM-4PM</option>
+                </select>
+            </div>
+        </div>
+        <div class="vert-line1">
+
+        </div>
+        <!-- <div class="vert-line"></div> -->
+        <div class="nap-conatiner">
+            <div class="nap-img">
+                <img src="./nap.png" alt="">
+
+            </div>
+            <div class="nap-text">Set nap time</div>
+            <div class="option-box2">
+                <select name="" id="opt-value2">
+                    <option value="Default Value">Default Value</option>
+                    <option value="4">4PM-5PM</option>
+                    <option value="5">5PM-6PM</option>
+                    <option value="6">6PM-7PM</option>
+                </select>
+            </div>
+        </div>
+        <div class="vert-line2"></div>
+        <div class="sleep-container">
+            <div class="sleep-img">
+                <img src="./sleep.png" alt="" class="sleep-image">
+
+            </div>
+            <div class="sleep-text">Set sleep time</div>
+            <div class="option-box3">
+                <select name="" id="opt-value3">
+                    <option value="Default Value">Default Value</option>
+                    <option value="9">9PM-4AM</option>
+                    <option value="10">10PM-5AM</option>
+                    <option value="11">11PM-6AM</option>
+                    <option value="0">12AM-7AM</option>
+                    <option value="1">1AM-8AM</option>
+                </select>
+            </div>
+        </div>                                                 
+    </div>
+    <div class="dynamicD1">
+        <div id="makeDiv">
+            <div class="setTime" onclick="settime()"><span>SET ALARM</span></div>
+        </div>
+    </div>
+    
+    <div class="globalClck">
+        <div class="clckFlex">
+            <div id="time">TIME</div>
+            <div id="hourBlck">
+                <span id="hr">00</span>
+                <p class="hrTxt">hours</p>
+            </div>
+            <div class="sepBlck1"><span id="dot1">:</span></div>
+            <div id="minBlck">
+                <span id="min">00</span>
+                <p class="minTxt">mins</p>
+            </div>
+            <div class="sepBlck2"><span id="dot2">:</span></div>
+            <div id="secBlck">
+                <span id="sec">00</span>
+                <p class="secTxt">secs</p>
+            </div>
+            <div id="amPmBlck">
+                <span id="amPm">AM</span>
+            </div>
+        </div>
+    <div>
+      
+    <div class="innerGlbl1"></div>
+    <div class="innerGlbl2"></div>
+
+    <div id="displayText" >
+        <p id="fntTxt">
+
+        </p>
+
+    </div>
+    <div id="displayImage">
+        <!-- <img src="./morning.jpg" alt="" srcset="" id="chngImage"> -->
+    </div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
