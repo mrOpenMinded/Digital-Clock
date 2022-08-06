@@ -107,6 +107,13 @@ function settime(){
     document.getElementById("displayImage").style.backgroundPositionY="25px";//25
     
 }
+else{
+    document.getElementById("fntTxt").innerText="Come On,Let's Plan the Day.!!!";
+    document.getElementById("displayImage").style.backgroundImage="url(./Planner.jpg)";
+    document.getElementById("displayImage").style.backgroundRepeat="no-repeat";
+    document.getElementById("displayImage").style.backgroundPositionX="95px";//38
+    document.getElementById("displayImage").style.backgroundPositionY="15px";//25
+}
 
 MakeDiv();
 };
