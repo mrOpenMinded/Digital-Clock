@@ -443,7 +443,7 @@ height: 100px;
 /* border: 2px solid red; */
 border-radius: 9px;
 offset: none;
-background-color: white;
+background-color: #ee98f5;
 
 }
 
@@ -539,11 +539,12 @@ opacity: 1;
     font-size: 17px;
     font-weight: bold;
     border-radius: 11px;
-    background-color: #F6E2FF;
+    background-color: #7f3bed;
     color: #F25CFE;
     height: 100px;
     width: 240px;
     position: absolute;
     top: 450px;
     left: 330px;
+
 }
